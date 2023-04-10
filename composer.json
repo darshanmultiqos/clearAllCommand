@@ -1,0 +1,24 @@
+{
+    "name": "multiqos/clearall",
+    "description": "This will be clear all catch,config,route",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Multiqos\\ClearAll\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Multiqos\\ClearAll\\ClearAllServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Darshan Belani",
+            "email": "darshan.multiqos@gmail.com"
+        }
+    ],
+    "require": {}
+}
