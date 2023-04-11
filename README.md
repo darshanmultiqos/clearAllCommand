@@ -5,3 +5,5 @@
 
 
 ## This will be clear all catch,config,route
+
+## After installing package run this command in terminal "php artisan clear:all"

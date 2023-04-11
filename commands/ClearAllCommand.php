@@ -10,14 +10,6 @@ class ClearAllCommand extends Command
 
     protected $description ="Clear all cache & temp files";
 
-    /*public $composer;
-
-    public function __construct()
-    {
-        parent::__construct();
-        $this->composer == app()['composer'];
-    }*/
-
     public function handle()
     {
         $this->comment(PHP_EOL.'Clearing All'.PHP_EOL);

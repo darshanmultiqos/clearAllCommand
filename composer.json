@@ -7,7 +7,6 @@
             "Multiqos\\ClearAll\\": "src/"
         }
     },
-    "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
@@ -21,6 +20,7 @@
             "email": "darshan.multiqos@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "minimum-stability": "dev"
 }
 
